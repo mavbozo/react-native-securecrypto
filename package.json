@@ -1,6 +1,6 @@
 {
   "name": "@mavbozo/react-native-securecrypto",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Secure Crypto Library for React Native New Architecture",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
@@ -61,8 +61,8 @@
   },
   "homepage": "https://github.com/mavbozo/react-native-securecrypto#readme",
   "publishConfig": {
-      "registry": "https://registry.npmjs.org/",
-      "access": "public"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^18.4.3",
