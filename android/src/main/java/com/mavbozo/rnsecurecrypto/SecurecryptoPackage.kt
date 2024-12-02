@@ -1,4 +1,4 @@
-package com.securecrypto
+package com.mavbozo.rnsecurecrypto
 
 import com.facebook.react.TurboReactPackage
 import com.facebook.react.bridge.NativeModule

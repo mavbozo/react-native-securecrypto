@@ -1,7 +1,7 @@
 {
-  "name": "react-native-securecrypto",
-  "version": "0.1.0",
-  "description": "A Secure Crypto Library for React Native",
+  "name": "@mavbozo/react-native-securecrypto",
+  "version": "0.0.1",
+  "description": "A Secure Crypto Library for React Native New Architecture",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
   "module": "./lib/module/index.js",
@@ -191,7 +191,7 @@
       "android": "android/generated"
     },
     "android": {
-      "javaPackageName": "com.securecrypto"
+      "javaPackageName": "com.mavbozo.rnsecurecrypto"
     },
     "includesGeneratedCode": true
   },

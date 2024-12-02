@@ -49,7 +49,7 @@ def supportsNamespace() {
 
 android {
   if (supportsNamespace()) {
-    namespace "com.securecrypto"
+    namespace "com.mavbozo.rnsecurecrypto"
 
     sourceSets {
       main {
@@ -111,12 +111,13 @@ dependencies {
   //noinspection GradleDynamicVersion
   implementation "com.facebook.react:react-native:+"
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+  implementation 'com.mavbozo.crypto:androidsecurecrypto:0.3.0'
 }
 
 if (isNewArchitectureEnabled()) {
   react {
     jsRootDir = file("../src/")
     libraryName = "Securecrypto"
-    codegenJavaPackageName = "com.securecrypto"
+    codegenJavaPackageName = "com.mavbozo.rnsecurecrypto"
   }
 }

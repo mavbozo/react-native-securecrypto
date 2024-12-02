@@ -8,6 +8,16 @@ A Secure Crypto Library for React Native
 npm install react-native-securecrypto
 ```
 
+## Requirements
+
+- React Native New Architecture
+- React Native >= 0.71.0
+- Android:
+  - Minimum SDK: API 23 (Android 6.0)
+  - Target SDK: API 34 (Android 14)
+- iOS:
+  - Minimum deployment target: iOS 15.6
+
 ## Usage
 
 
