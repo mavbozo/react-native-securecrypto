@@ -61,7 +61,8 @@
   },
   "homepage": "https://github.com/mavbozo/react-native-securecrypto#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+      "registry": "https://registry.npmjs.org/",
+      "access": "public"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^18.4.3",
