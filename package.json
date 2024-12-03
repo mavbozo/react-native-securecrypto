@@ -1,6 +1,6 @@
 {
   "name": "@mavbozo/react-native-securecrypto",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A Secure Crypto Library for React Native New Architecture",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
