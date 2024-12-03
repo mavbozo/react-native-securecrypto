@@ -1,5 +1,5 @@
 import { Buffer } from 'buffer';
-const Securecrypto = require('./NativeSecurecrypto').default;
+import Securecrypto from './NativeSecurecrypto';
 
 // Just keep the type exports and constants
 export const MAX_STRING_SIZE = 1024 * 1024; // 1MB

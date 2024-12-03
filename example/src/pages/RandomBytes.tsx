@@ -7,7 +7,7 @@ import {
   TouchableOpacity,
   Clipboard,
 } from 'react-native';
-import { random } from 'react-native-securecrypto';
+import { random } from '@mavbozo/react-native-securecrypto';
 
 export default function RandomBytes() {
   const [results, setResults] = useState({

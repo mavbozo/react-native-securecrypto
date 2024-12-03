@@ -8,7 +8,7 @@ import {
   Clipboard,
   ScrollView,
 } from 'react-native';
-import { cipher, random } from 'react-native-securecrypto';
+import { cipher, random } from '@mavbozo/react-native-securecrypto';
 import { Buffer } from 'buffer';
 import RNFS from 'react-native-fs';
 

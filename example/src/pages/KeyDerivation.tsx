@@ -7,7 +7,7 @@ import {
   TouchableOpacity,
   Clipboard,
 } from 'react-native';
-import { keyDerivation } from 'react-native-securecrypto';
+import { keyDerivation } from '@mavbozo/react-native-securecrypto';
 
 export default function KeyDerivation() {
   const [masterKey, setMasterKey] = useState('');
